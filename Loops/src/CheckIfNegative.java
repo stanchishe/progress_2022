@@ -9,7 +9,7 @@ public class CheckIfNegative {
         String myName = "Stanko";
         System.out.println("Please, enter your name:");
         String nameToCheck = scanner.next();
-
+        scanner.close();
         boolean nameEval = (myName.equals(nameToCheck)) ? true : false;
 
         if (nameEval) {
